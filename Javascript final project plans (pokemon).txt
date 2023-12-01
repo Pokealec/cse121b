@@ -1,0 +1,17 @@
+Javascript final project plans
+Pokemon Index - to help you know more about pokemon.
+
+Using PokeAPI, I will make a website that acts like a pokedex. It will:
+- show the name, average weight, and other identifying info of each pokemon
+- show some statistics of it's species and the location(s) it is found
+- show picture of it, with an option to show the shiny form instead
+
+I will base some of this off of the example code used in the week 5 assignments. 
+I will import the PokeAPI, and generate an array/list of each species.
+I will pull out the name, weight, typing, and some other information from each entry.
+It will show at least one image with the option to show shiny form.
+I might limit it to just the original 151 pokemon for convenience.
+I will show the locations to find said pokemon.
+
+I might add a link to something or pull information from the worldofpokemon site.
+https://theworldofpokemon.com/

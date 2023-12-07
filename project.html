@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 121b | W06: Final Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles\main.css">
+  <script src="https://unpkg.com/sv443-joke-api@0.0.8/web/index.js"></script>
+</head>
+
+<body>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
+      <li><a href="w05-task.html">W5 Task</a></li>
+      <li><a href="project.html" class="active">Project</a></li>
+    </ul>
+  </nav>
+  <main id="gridly">
+    <h1>Javascript Final Project</h1>
+    <h2>The Purpose of the Internet</h2> <!-- Now You're Thinking With APIs -->
+    <section id="task3">
+      <section id="section1">
+        <div>
+          <h3>Joke Box</h3>
+          <p>Please Select a Joke Type Below:</p>
+          <select id="apiSelector">
+            <option value="" disabled selected>Select Joke Type</option>
+            <option value="randomJoke">Random Joke (any joke)</option>
+            <option value="Norris">Chuck Norris Facts</option>
+            <option value="OneLiners">Dad's One-liners</option>
+            <option value="KnockKnock">Knock-Knock Jokes</option>
+            <option value="YoMama">Yo Mama</option>
+          </select>
+        <input type="button" onclick="fetchData()" value="Get Joke">
+        <div id="resultContainer"></div>
+        </div>
+      </section>
+      <div>
+        <section id="section2">
+          <div>
+            <input type="button" id="catgif" onclick="openCatLink()" value="Get a Gif Specifically of a Cat">
+          </div>
+          <div>
+            <input type="button" id="meme" value="Get a Meme" onclick="displayMeme()">
+          </div>
+          <div>
+            <h3>Enter a few (up to 20) numbers seperated by spaces:</h3>
+            <div>
+              <input type="text" id="userInput" placeholder="example:1 2 3 4">
+            </div>
+            <input type="button" id="addNumbers" value="Add Numbers" onclick="addNumbers()">
+          </div>
+          <div id="numberResult"></div>
+        </section>
+        <section id="section3">
+          <div id="displayBox"></div>
+            <div id="secret video">
+              <iframe width="702" height="395" src="https://www.youtube.com/embed/fuiwRpF8WB4" url="https://www.youtube.com/watch?v=fuiwRpF8WB4" title="Reflections of the Master" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          <div id="theContent"></div>
+        </section>
+      </section>
+    </div>
+    </div>
+  </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Week 06 - Final Project | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/project.js"></script>
+</body>
+
+</html>

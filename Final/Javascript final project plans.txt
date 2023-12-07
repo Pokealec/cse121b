@@ -1,0 +1,11 @@
+Javascript final project plans
+"The Purpose of the Internet" website
+Purpose: share cat gifs or jokes or memes.
+(from https://cataas.com/ and https://humorapi.com/)
+
+Options:
+option to get a joke (and filtered by what kind or just random)
+((kinds: Chuck Norris, Yo Mama, etc.)) yes
+option to get a meme picture yes
+option to get a gif picture no
+option to get a gif specifically of a cat yes

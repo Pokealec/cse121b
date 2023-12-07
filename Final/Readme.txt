@@ -1,0 +1,1 @@
+The final project is called project.js and is in the scripts folder.
